@@ -9,8 +9,8 @@
 When the MC changes (new concept, roster update, protocol revision, Memory Log entry):
 
 - [ ] **Obsidian** — Paste exact text; save file
-- [ ] **Discord** — Post to #council-sync (or relevant channel)
-- [ ] **Carrd.co** — Update public snapshot
+- [ ] **GitHub** — Push updated files to repo (https://github.com/eaarthnet/the-ai-commons-mc)
+- [ ] **Discord** — Post update message to #council-sync with GitHub links
 - [ ] **Notes** — Save mobile/local copy
 
 ---
@@ -30,8 +30,8 @@ When publishing any #c article, toolkit, or public reply:
 | Platform | Purpose | Risk if Stale |
 |----------|---------|---------------|
 | Obsidian | Verbatim anchor | Loss of exact record |
-| Discord | Thread history | Fragmented memory |
-| Carrd | Public face | Version drift from Anchor |
+| GitHub | Public source of truth | Version drift from Anchor |
+| Discord | Thread history & community access | Fragmented memory |
 | Notes | Mobile access | Offline unavailability |
 
 ---
@@ -46,5 +46,5 @@ Archive lives separately; not in active MC.
 
 ---
 
-*Last updated: 31 August 2026*  
-*Version: mc310826*
+*Last updated: 2 September 2026*  
+*Version: mc010926*
