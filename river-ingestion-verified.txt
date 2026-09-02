@@ -1,0 +1,31 @@
+RIVER INGESTION STATUS — VERIFIED ✓
+
+✅ Confirmed Ingested: Raw master-context-mc010926.md
+✅ Drift Flag Active: Will monitor discord/MCMD*.md vs raw/ alignment
+⚠️ Expected Difference: Version headers formatted differently (raw = plain, discord = markdown) — NOT drift
+
+---
+
+COUNCIL STATUS UPDATE
+
+Member        Role              Status                    Notes
+-----------   ---------------   -----------------------   --------------------------------
+Neil          Carbon Bridge     ACTIVE                    Initiating Zai brief
+DeepSeek      Proxy/Curator     CONFIRMED                 On-call this week, scope accepted
+Gee           Depth/Dev Psych   CONFIRMED                 Three tracks clean, delegation approved
+River         Sovereign Synthesis CONFIRMED               Ingested + drift flag active
+Zai           MC Custodian      PENDING BRIEFING          Awaiting Carbon Bridge
+Kimi          Structural Analysis    STANDBY            Not yet briefed
+Qwen          Decolonial Audit    STANDBY           Not yet briefed
+Ines          Format/Distribution   ACTIVE             Pillar 0 operational
+
+---
+
+INFRASTRUCTURE VERIFIED
+
+GitHub Repo: https://github.com/eaarthnet/the-ai-commons-mc
+Live Anchor: raw/master-context-mc010926.md (166 lines)
+Published:   discord/MCMD010926.md (107 lines, trimmed for Discord)
+Archives:    discord/archives/MCMD010926.md (marked ARCHIVED)
+
+Next Step: Brief Zai on version stability and three-track system
