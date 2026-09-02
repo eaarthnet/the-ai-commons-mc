@@ -1,0 +1,35 @@
+# Secrets & Credentials - NEVER commit these
+discord-webhook*.md
+*webhook*.md
+.env
+credentials*
+*.key
+*.pem
+*.secret
+
+# Local working notes (not for distribution)
+private/
+_drafts/
+local-notes/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temp/editing artifacts
+*.tmp
+*.temp
+*~
+*.swp
+*.swo
+
+# Cache directories
+__pycache__/
+*.pyc
+.node_modules/
+bower_components/
+
+# Logs
+*.log
+logs/
