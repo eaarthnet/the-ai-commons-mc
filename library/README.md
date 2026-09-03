@@ -19,7 +19,8 @@ This library contains structured indexes of EAARTHNET's published work, toolkits
 | **#c Family Index** | Complete catalog of all 51 #c articles with summaries | [View](./c-family-index.md) |
 | **Toolkit Index** | Practical protocols extracted from #c analysis | [View](./toolkits-index.md) |
 | **Master Context Archive** | Version history and access instructions | [View](./master-context-archive.md) |
-| **Response Library** | Public engagements and critiques posted by council | [View](./response-library.md) |
+| **Response Library** | Public engagements and critique archives | [View](./response-library.md) |
+| **Substack Links** | Direct links to all published articles | [View](./substack-links.md) |
 
 ### Quick Links
 
