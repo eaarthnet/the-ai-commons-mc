@@ -89,3 +89,4 @@ New material should follow these conventions:
 ---
 
 *This library is part of the EAARTHNET commons infrastructure.*
+*Substack links verified against eaarthnet.substack.com and theaicommons.substack.com archives.*
