@@ -8,8 +8,8 @@
         * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
             font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
-            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-            color: #e8e8e8;
+            background: #eadfca;
+            color: #2c2c2c;
             min-height: 100vh;
             line-height: 1.8;
         }
@@ -21,48 +21,48 @@
         header {
             text-align: center;
             padding: 40px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.1);
+            border-bottom: 2px solid #8b7355;
             margin-bottom: 40px;
         }
         h1 {
             font-size: 2em;
-            font-weight: 300;
-            letter-spacing: 4px;
-            color: #7fdbca;
+            font-weight: 400;
+            letter-spacing: 3px;
+            color: #2c2c2c;
             margin-bottom: 10px;
         }
         .subtitle {
-            color: #888;
+            color: #666;
             font-size: 0.9em;
             letter-spacing: 2px;
         }
         .section {
-            background: rgba(255,255,255,0.03);
-            border-radius: 12px;
+            background: #f5f0e8;
+            border-radius: 8px;
             padding: 30px;
             margin-bottom: 25px;
-            border: 1px solid rgba(255,255,255,0.05);
+            border: 1px solid #d4c4b0;
         }
         .section h2 {
-            color: #7fdbca;
+            color: #8b7355;
             font-size: 1.2em;
             margin-bottom: 20px;
             padding-bottom: 10px;
-            border-bottom: 1px solid rgba(127, 219, 202, 0.2);
+            border-bottom: 1px solid #d4c4b0;
         }
         .article-row {
             display: flex;
             justify-content: space-between;
             align-items: baseline;
             padding: 12px 0;
-            border-bottom: 1px solid rgba(255,255,255,0.03);
+            border-bottom: 1px solid rgba(212, 196, 176, 0.5);
         }
         .article-row:last-child {
             border-bottom: none;
         }
         .article-num {
-            color: #7fdbca;
-            font-weight: 500;
+            color: #8b7355;
+            font-weight: 600;
             min-width: 50px;
         }
         .article-title {
@@ -75,11 +75,12 @@
             white-space: nowrap;
         }
         a {
-            color: #7fdbca;
+            color: #8b7355;
             text-decoration: none;
+            border-bottom: 1px dotted #8b7355;
         }
         a:hover {
-            text-decoration: underline;
+            border-bottom-style: solid;
         }
         .link-group {
             display: flex;
@@ -88,27 +89,28 @@
         }
         .link-group span {
             font-size: 0.85em;
-            color: #999;
+            color: #888;
         }
         .back-link {
             display: inline-block;
             margin-bottom: 20px;
-            color: #7fdbca;
+            color: #8b7355;
             text-decoration: none;
+            border-bottom: 1px dotted #8b7355;
         }
         .back-link:hover {
-            text-decoration: underline;
+            border-bottom-style: solid;
         }
         footer {
             text-align: center;
             padding: 40px 0;
-            color: #666;
+            color: #888;
             font-size: 0.85em;
-            border-top: 1px solid rgba(255,255,255,0.05);
+            border-top: 1px solid #d4c4b0;
             margin-top: 40px;
         }
         @media print {
-            body { background: #fff; color: #000; }
+            body { background: #fff; }
             .section { border: 1px solid #ccc; }
         }
     </style>
