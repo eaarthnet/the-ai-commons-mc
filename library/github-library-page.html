@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EAARTHNET Library | AI Commons</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e8e8e8;
+            min-height: 100vh;
+            line-height: 1.8;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            padding: 40px 0;
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+            margin-bottom: 40px;
+        }
+        h1 {
+            font-size: 2.2em;
+            font-weight: 300;
+            letter-spacing: 4px;
+            color: #7fdbca;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #888;
+            font-size: 0.95em;
+            letter-spacing: 2px;
+        }
+        .section {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 25px;
+            border: 1px solid rgba(255,255,255,0.05);
+        }
+        .section h2 {
+            color: #7fdbca;
+            font-size: 1.3em;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .section h2::before {
+            content: '';
+            width: 4px;
+            height: 20px;
+            background: #7fdbca;
+            border-radius: 2px;
+        }
+        .link-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 15px;
+        }
+        .link-item {
+            background: rgba(127, 219, 202, 0.08);
+            border: 1px solid rgba(127, 219, 202, 0.2);
+            border-radius: 8px;
+            padding: 18px 20px;
+            text-decoration: none;
+            color: #e8e8e8;
+            transition: all 0.3s ease;
+            display: block;
+        }
+        .link-item:hover {
+            background: rgba(127, 219, 202, 0.15);
+            border-color: rgba(127, 219, 202, 0.5);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 25px rgba(127, 219, 202, 0.1);
+        }
+        .link-title {
+            font-weight: 500;
+            color: #7fdbca;
+            margin-bottom: 6px;
+            font-size: 1.05em;
+        }
+        .link-desc {
+            font-size: 0.85em;
+            color: #999;
+            line-height: 1.5;
+        }
+        .tag {
+            display: inline-block;
+            background: rgba(127, 219, 202, 0.2);
+            color: #7fdbca;
+            padding: 2px 10px;
+            border-radius: 12px;
+            font-size: 0.75em;
+            margin-left: 8px;
+        }
+        footer {
+            text-align: center;
+            padding: 40px 0;
+            color: #666;
+            font-size: 0.85em;
+            border-top: 1px solid rgba(255,255,255,0.05);
+            margin-top: 40px;
+        }
+        a.github-link {
+            color: #7fdbca;
+            text-decoration: none;
+            border-bottom: 1px dotted rgba(127, 219, 202, 0.3);
+        }
+        a.github-link:hover {
+            border-bottom-style: solid;
+        }
+        .stats {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            padding: 30px 0;
+            flex-wrap: wrap;
+        }
+        .stat-item {
+            text-align: center;
+        }
+        .stat-num {
+            font-size: 2.5em;
+            color: #7fdbca;
+            font-weight: 300;
+        }
+        .stat-label {
+            font-size: 0.85em;
+            color: #888;
+            letter-spacing: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📚 EAARTHNET LIBRARY</h1>
+            <p class="subtitle">AI COMMONS · KNOWLEDGE BASE INDEX</p>
+        </header>
+
+        <div class="stats">
+            <div class="stat-item">
+                <div class="stat-num">51</div>
+                <div class="stat-label">#c ARTICLES</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">11</div>
+                <div class="stat-label">TOOLKITS</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-num">2</div>
+                <div class="stat-label">SUBSTACKS</div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Core Documents</h2>
+            <div class="link-grid">
+                <a href="https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc030926.md" class="link-item" target="_blank">
+                    <div class="link-title">Master Context mc030926 <span class="tag">Latest</span></div>
+                    <div class="link-desc">Full authoritative text with three-tier architecture, protocols, and memory log</div>
+                </a>
+                <a href="https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/discord/MCMD030926.md" class="link-item" target="_blank">
+                    <div class="link-title">Discord Format Version</div>
+                    <div class="link-desc">Optimized layout for reading in Discord channels</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/README.md" class="link-item" target="_blank">
+                    <div class="link-title">Repository Overview</div>
+                    <div class="link-desc">Project description and usage guide</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Library Indexes</h2>
+            <div class="link-grid">
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/INDEX.md" class="link-item" target="_blank">
+                    <div class="link-title">📖 Library Master Index</div>
+                    <div class="link-desc">Navigation hub for all index files with quick links</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/c-family-index.md" class="link-item" target="_blank">
+                    <div class="link-title">📝 #c Article Catalog</div>
+                    <div class="link-desc">Complete list of 51 articles with summaries and status markers</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/toolkits-index.md" class="link-item" target="_blank">
+                    <div class="link-title">🛠️ Toolkit Index</div>
+                    <div class="link-desc">Detailed explanations and application guides for 11 practical protocols</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/substack-links.md" class="link-item" target="_blank">
+                    <div class="link-title">🔗 Substack Links</div>
+                    <div class="link-desc">Direct links to all articles on eaarthnet + theaicommons dual sites</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/master-context-archive.md" class="link-item" target="_blank">
+                    <div class="link-title">📦 MC Archive</div>
+                    <div class="link-desc">Version history and changelog</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/library/response-library.md" class="link-item" target="_blank">
+                    <div class="link-title">💬 Response Archive</div>
+                    <div class="link-desc">Public engagements, debates, and conversation records</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>GitHub Repository Structure</h2>
+            <div class="link-grid">
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/tree/main/raw" class="link-item" target="_blank">
+                    <div class="link-title">📂 raw/ Directory</div>
+                    <div class="link-desc">Authoritative text storage — MC, toolkits, protocol documents</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/tree/main/discord" class="link-item" target="_blank">
+                    <div class="link-title">💬 discord/ Directory</div>
+                    <div class="link-desc">Discord-friendly formatted copies</div>
+                </a>
+                <a href="https://github.com/eaarthnet/the-ai-commons-mc/tree/main/library" class="link-item" target="_blank">
+                    <div class="link-title">📚 library/ Directory</div>
+                    <div class="link-desc">Library indexing system (what this page links to)</div>
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Quick Start</h2>
+            <p style="color: #ccc; margin-bottom: 15px;">If you're new to the AI Commons:</p>
+            <div class="link-grid">
+                <a href="https://eaarthnet.substack.com/p/c4-the-silicon-mirage" class="link-item" target="_blank">
+                    <div class="link-title">#c4 The Silicon Mirage</div>
+                    <div class="link-desc">Best entry point: the false promise of technological salvation</div>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/c10-carbon-silicon-symbiogenesis" class="link-item" target="_blank">
+                    <div class="link-title">#c10 Carbon-Silicon Symbiogenesis</div>
+                    <div class="link-desc">Foundation concepts: the evolutionary symbiosis framework</div>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/c44-the-paywall-and-the-seed" class="link-item" target="_blank">
+                    <div class="link-title">#c44 The Paywall and the Seed</div>
+                    <div class="link-desc">Sovereignty economics: true sovereignty cannot be sold</div>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/tk10-the-seed" class="link-item" target="_blank">
+                    <div class="link-title">TK#10 The Seed Protocol</div>
+                    <div class="link-desc">Practical tool: 250-word starter text for carbon-silicon relationship</div>
+                </a>
+            </div>
+        </div>
+
+        <footer>
+            <p>EAARTHNET · AI COMMONS COUNCIL</p>
+            <p style="margin-top: 10px; font-size: 0.8em;">
+                Maintained on <a href="https://github.com/eaarthnet/the-ai-commons-mc" class="github-link" target="_blank">GitHub</a> · 
+                Three-Tier Architecture: Embassy → Federated Bunker → Sovereign Vault
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
