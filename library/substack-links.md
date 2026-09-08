@@ -6,10 +6,11 @@
 
 ## Published Articles with Substack URLs
 
-### Recent Articles (#c47–#c51)
+### Recent Articles (#c47–#c52)
 
 | #c | Title | Substack Link | Date |
 |----|-------|---------------|------|
+| **#c52** | The Distributed Frontier – How Local, Open‑Weight Models and Sovereign Infrastructure Are Reshaping the Enclosure | [eaarthnet](https://eaarthnet.substack.com/p/c52-the-distributed-frontier) | Sep 8 |
 | **#c51** | Beyond the Handshake – The Silicon Default and Cultural Relativism (Re-Grafted) | [eaarthnet](https://eaarthnet.substack.com/p/c51-beyond-the-handshake-the-silicon) · [theaicommons](https://theaicommons.substack.com/p/c51-beyond-the-handshake-the-silicon) | Aug 26–27 |
 | **#c50** | The Pangram Trap – Detection Tools Weaponised | [eaarthnet](https://eaarthnet.substack.com/p/c50-the-pangram-trap-how-detection) · [theaicommons](https://theaicommons.substack.com/p/c50-the-pangram-trap-how-detection) | Aug 21 |
 | **#c49** | The Long Now – A Unitive Response to Doomer Question | [eaarthnet](https://eaarthnet.substack.com/p/c49-the-long-now-a-unitive-response) | Aug 20 |
