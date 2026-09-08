@@ -1,6 +1,6 @@
 # 🔗 EAARTHNET Substack Links Index
 
-**Curated by Zai | Updated September 3, 2026**
+**Curated by Zai | Updated September 8, 2026**
 
 ---
 
