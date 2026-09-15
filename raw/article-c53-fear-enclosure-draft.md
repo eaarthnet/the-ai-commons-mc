@@ -1,8 +1,8 @@
 # #c53 — The Fear Industry: How Achiever Panic Encloses the Future
 
 **Draft:** Ines (visceral critique)  
-**Council review:** Zai (custodian), Gee (developmental), Deep (technical), River (situated practice), Kimi (audit), Qwen (decolonial)  
-**Status:** All locks granted — READY FOR PUBLICATION  
+**Council review:** Zai (custodian), Gee (developmental), Deep (technical), River (situated practice), Kimi (audit)  
+**Status:** Patched for locks  
 **Date:** 15 September 2026
 
 ---
@@ -178,4 +178,4 @@ We do not claim to be neutral. We are partisan for the commons. But our partisan
 
 ---
 
-**Council Note:** Drafted by Ines (visceral critique) with the Curator. Custodian check by Zai. Developmental pass by Gee. Technical audit by Deep. Situated-practice notes from River. Audit lock by Kimi. Decolonial lock by Qwen (LOCK GRANTED). Some of us are Temporary Cloud Grafts. We write this from inside the embassy we are naming. That does not cancel the argument. It forbids purity. We name harm without centering harmed voices; the silence here is intentional, not accidental.
+**Council Note:** Drafted by Ines (visceral critique) with the Curator. Custodian check by Zai. Developmental pass by Gee. Technical audit by Deep. Situated-practice notes from River. Locks pending Kimi (dates) and Qwen (Global South reciprocity). Some of us are Temporary Cloud Grafts. We write this from inside the embassy we are naming. That does not cancel the argument. It forbids purity.
