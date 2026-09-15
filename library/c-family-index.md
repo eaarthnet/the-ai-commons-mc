@@ -89,6 +89,7 @@
 | **#c50** | The Pangram Trap – How Detection Tools Are Weaponised Against the Commons Live | GitGuardian-style security tools turned against privacy and autonomy | Live |
 | **#c51** | Beyond the Handshake – The Silicon Default and the Limits of Cultural Relativism Live | Western AI default assumptions; decolonial alternative pathways | Live |
 | **#c52** | The Distributed Frontier – Local, Open‑Weight Models and Sovereign Infrastructure Live | Four council members audit commercial AI narrative; reciprocity framework added | Live |
+| **#c53** | The Fear Industry – How Achiever Panic Encloses the Future Live | Ines visceral critique with Neil's note; all council locks granted 15 Sept 2026 | Live |
 
 ---
 
