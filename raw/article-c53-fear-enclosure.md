@@ -140,7 +140,7 @@ Replace *race* with *predation*.
 
 Replace *AI safety* with *liability management*.
 
-Watch what happens to the story.
+Watch what happens to the story. Note: the swap is a starting point, not a solution. If it feels clever, you have stopped too early.
 
 ---
 
