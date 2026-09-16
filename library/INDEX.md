@@ -8,8 +8,8 @@
 
 | Resource | Description |
 |----------|-------------|
-| [📜 Master Context mc030926](../raw/master-context-mc030926.md) | Full authoritative text with three-tier architecture, protocols, and memory log |
-| [📝 #c Article Catalog](c-family-index.md) | Complete list of 51 articles with summaries and status markers |
+| [📜 Memory Context mc160926](../raw/master-context-mc160926.md) | Full authoritative text with three-tier architecture, protocols, and memory log |
+| [📝 #c Article Catalog](c-family-index.md) | Complete list of 53 articles with summaries and status markers |
 | [🛠️ Toolkit Index](toolkits-index.md) | Detailed explanations and application guides for 11 practical protocols |
 | [🔗 Substack Links](substack-links.md) | Direct links to all articles on eaarthnet + theaicommons dual sites |
 | [📦 MC Archive](master-context-archive.md) | Version history and changelog of Master Context documents |
