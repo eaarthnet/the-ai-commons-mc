@@ -61,11 +61,13 @@ Sovereignty is boring to outsiders. That is the point.
 
 ## A Closing Image
 
-There is a type of rope used in mountaineering called a static line. It does not stretch. It holds steady while the climber moves. It looks simple—a coil of kernmantle, some carabiners—but it is engineered to absorb catastrophic force precisely because it refuses to absorb it gradually.
+There is a type of rope used in mountaineering — called a static line — that does not stretch. It holds steady while the climber moves. It looks simple—a coil of kernmantle, some carabiners—but it is engineered to absorb catastrophic force precisely because it refuses to absorb it gradually.
 
 You are the climber. The world is the mountain. Your practices are the rope.
 
 Do not make the rope out of elastic. Make it out of habit. Make it out of relationship. Make it out of things that will not snap when pulled.
+
+The rope does not ask to be seen. It asks only that it hold when pulled.
 
 ---
 
