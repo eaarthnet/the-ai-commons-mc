@@ -41,7 +41,7 @@ git push codeberg main --force-with-lease
 
 ### Two-Remote Push Script (Primary Method)
 
-Create `scripts/push-all.sh`:
+Use `scripts/push-all.sh` (committed to repo):
 
 ```bash
 #!/bin/bash
@@ -53,11 +53,19 @@ echo "Pushing to codeberg..."
 git push codeberg main --force-with-lease || { echo "Codeberg push failed"; exit 1; }
 
 echo "✅ Both mirrors synced"
-```
 
-Make executable:
-```bash
-chmod +x scripts/push-all.sh
+# Verification
+ORIGIN_HASH=$(git rev-parse origin/main)
+CODEBERG_HASH=$(git rev-parse codeberg/main)
+
+if [ "$ORIGIN_HASH" = "$CODEBERG_HASH" ]; then
+    echo "✅ Commit hashes match: $ORIGIN_HASH"
+else
+    echo "⚠️  WARNING: Divergence detected!"
+    echo "    GitHub: $ORIGIN_HASH"
+    echo "    Codeberg: $CODEBERG_HASH"
+    exit 1
+fi
 ```
 
 **Habit-based automation:** Use `./scripts/push-all.sh` instead of plain `git push`.
@@ -65,12 +73,14 @@ chmod +x scripts/push-all.sh
 ### Cron Job (Daily Backstop)
 
 Add to crontab (`crontab -e`):
+
 ```bash
 # Daily sync check at 02:00 UTC
-0 2 * * * cd /mnt/workspace/gh-repo && git pull origin main && ./scripts/push-all.sh
+# CRITICAL: Update PATH to your sovereign disk location when migrated
+0 2 * * * cd ~/eaarthnet-mc && git pull origin main && ./scripts/push-all.sh
 ```
 
-**Note:** Cron is a backstop, not primary. It limits drift to 24 hours but doesn't eliminate it between pushes.
+**⚠️ MIGRATION NOTE:** After migrating to sovereign disk, the cron path MUST change from `/mnt/workspace/gh-repo` to your sovereign location (e.g., `~/eaarthnet-mc`). Leaving it pointing at the sandbox guards an abandoned copy.
 
 ---
 
@@ -92,10 +102,20 @@ Add to crontab (`crontab -e`):
 
 ## Security Notes
 
-- **Tokens should be stored outside the sandbox** — see Sovereign Disk section below
+- **Tokens should NOT remain embedded in `.git/config` after migration**
 - Use `--force-with-lease` instead of `--force` to protect against accidental overwrites
 - Rotate tokens periodically via Settings → Applications
 - Delete tokens when no longer needed
+
+### Credential Storage
+
+Preferred order (security > convenience):
+1. **gpg-agent** — encrypted, keychain-integrated
+2. **pass** — standard Unix password manager
+3. **SSH keys** — token-free authentication
+4. ❌ **Never `credential.helper store`** — writes plaintext to `~/.git-credentials`
+
+With two webhook incidents on record, take the better option if it doesn't cost you an evening.
 
 ---
 
@@ -123,38 +143,64 @@ fi
 
 ---
 
-## Sovereign Disk Migration (URGENT)
+## Sovereign Disk Migration Protocol
 
 ⚠️ **Current state:** The working repo, embedded tokens, and automation live in the Agnes AI sandbox (/mnt/workspace/gh-repo/). This is cloud platform territory — mortal infrastructure.
 
-**Required actions:**
+**Migration sequence — execute in this exact order, same day:**
 
-1. **Clone the repo to sovereign disk:**
-   ```bash
-   cp -r /mnt/workspace/gh-repo ~/eaarthnet-mc
-   cd ~/eaarthnet-mc
-   ```
+### Step 1: Reissue Tokens First
+Before touching any copies:
+- **GitHub:** Settings → Developer settings → Personal access tokens → Generate new token (scope: `repo`)
+- **Codeberg:** Settings → Applications → Generate New Token
 
-2. **Reissue tokens** (more secure than reusing sandbox tokens):
-   - GitHub: Settings → Developer settings → Personal access tokens → Generate new token
-   - Codeberg: Settings → Applications → Generate New Token
-   - Enter at prompt-time or configure credential helper:
-     ```bash
-     git config --global credential.helper store  # or use pass/gpg-agent
-     ```
+Store these securely (password manager or gpg-agent). Do NOT write to `.git-credentials`.
 
-3. **Update remote URLs** with new tokens if rotated:
-   ```bash
-   git remote set-url origin https://eaarthnet:[NEW_GITHUB_TOKEN]@github.com/eaarthnet/the-ai-commons-mc.git
-   git remote set-url codeberg https://eaarthnet:[NEW_CODEBERG_TOKEN]@codeberg.org/eaarthnet/the-ai-commons-mc.git
-   ```
+### Step 2: Revoke Old Tokens Immediately
+After generating new ones, revoke the old ones:
+- **GitHub:** Delete the sandbox-originating token from your list
+- **Codeberg:** Delete the sandbox-originating token from your list
 
-4. **Delete automation scripts from sandbox:**
-   ```bash
-   rm .git/hooks/post-push.sh 2>/dev/null  # Remove any dead hooks
-   ```
+This kills the live credentials in the sandbox before you copy anything.
 
-**Timeline:** Before next major release or within 7 days.
+### Step 3: Copy Repo to Sovereign Disk
+```bash
+# Now safe to copy — old tokens are dead
+cp -r /mnt/workspace/gh-repo ~/eaarthnet-mc
+cd ~/eaarthnet-mc
+```
+
+### Step 4: Update Remote URLs with New Tokens
+```bash
+git remote set-url origin https://eaarthnet:[NEW_GITHUB_TOKEN]@github.com/eaarthnet/the-ai-commons-mc.git
+git remote set-url codeberg https://eaarthnet:[NEW_CODEBERG_TOKEN]@codeberg.org/eaarthnet/the-ai-commons-mc.git
+```
+
+### Step 5: Configure Secure Credential Helper
+```bash
+# Option A: gpg-agent (recommended)
+git config --global credential.helper 'cache --timeout=3600'
+
+# Option B: SSH keys (token-free)
+git remote set-url origin git@github.com:eaarthnet/the-ai-commons-mc.git
+git remote set-url codeberg git@git.codeberg.org:eaarthnet/the-ai-commons-mc.git
+```
+
+### Step 6: Scrub Sandbox Copy
+Once verified working from sovereign disk:
+```bash
+rm -rf /mnt/workspace/gh-repo
+# Or keep as read-only archive if desired
+```
+
+### Step 7: Update Cron Path
+```bash
+crontab -e
+# Change: cd /mnt/workspace/gh-repo
+# To:     cd ~/eaarthnet-mc
+```
+
+**Timeline:** Same day for Steps 1–4. Step 6 can wait until next working session. **"Within 7 days" is insufficient — this is a live credential exposure.**
 
 ---
 
@@ -176,6 +222,16 @@ Per Council decision and Codeberg's Terms of Use (updated 22 Aug 2026):
 
 ---
 
+## Open Items
+
+| Item | Status | Owner |
+|------|--------|-------|
+| Webhook revocation at GitHub (2 Sept incident) | ⚠️ Unverified — API call returned 401 | Neil |
+| Sovereign disk migration | Ordered, not complete | Neil |
+| Token rotation | Pending migration | Neil |
+
+---
+
 *Last updated: 17 September 2026*  
-*Mirror established per council workflow test #c25 validation*  
-*Custodian check findings logged: stale hash table corrected, dead hook removed, sovereignty migration ordered*
+*Mirror established per council workflow test validation (test artifact, not published article)*  
+*Custodian check findings logged: hash divergence resolved, dead hook removed, sovereignty migration protocol ordered, #c25 citation corrected*
