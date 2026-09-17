@@ -118,6 +118,8 @@ Six council locks required before publication:
 
 **Lock granted = article can publish.** Track in library folder.
 
+**Submission Guide:** See `/guide/council-review-submission.md` for how council members can submit reviews (direct chat, email, or fork+PR).
+
 ---
 
 ## 📊 Current Status (as of Sept 2026)
