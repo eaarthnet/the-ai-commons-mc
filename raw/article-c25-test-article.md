@@ -31,7 +31,7 @@ Today, sovereignty has been colonised by two masters: the corporation (which sel
 
 ### 1. Know Your Substrate
 
-What runs under you? Soil, water, WiFi signal, migration paths, neighbour relations. Map what sustains you. This is not activism—it is architecture. Buildings rest on foundations; communities rest on visible dependencies. When you cannot see yours, you are already leaning.
+What runs under you? Soil, water, WiFi signal, migration paths, neighbour relations. Map what sustains you — this is your substrate, the unseen infrastructure that holds everything else up. This is not activism—it is architecture. Buildings rest on foundations; communities rest on visible dependencies. When you cannot see yours, you are already leaning.
 
 ### 2. Build Small Circles of Reciprocity
 
