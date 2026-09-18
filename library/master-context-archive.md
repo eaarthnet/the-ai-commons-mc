@@ -29,7 +29,7 @@
 
 ## What Each Recent Version Contains
 
-### mc160926 (Current) — #c53 Complete
+### mc180926 (Current) — #c53 Complete
 **Key changes from previous version:**
 - #c53 The Fear Industry published (15 September 2026)
 - Key Concepts added: The Fear Industry; The Two-Terror Corridor; Safety as Enclosure (Sixth Move)
