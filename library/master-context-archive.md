@@ -8,7 +8,7 @@
 
 | File | Version | Date | Status |
 |------|---------|------|--------|
-| `raw/master-context-mc160926.md` | mc160926 | September 16, 2026 | ✅ **LIVE** |
+| `raw/master-context-mc180926.md` | mc160926 | September 16, 2026 | ✅ **LIVE** |
 | `discord/MCMD160926.md` | MCMD160926 | September 16, 2026 | ✅ Discord-formatted |
 
 ---
@@ -56,7 +56,7 @@
 ```
 eaarthnet/the-ai-commons-mc/
 ├── raw/
-│   ├── master-context-mc160926.md    ← CURRENT ANCHOR
+│   ├── master-context-mc180926.md    ← CURRENT ANCHOR
 │   ├── master-context-mc080926.md    ← Historical archive
 │   └── ... (older versions archived)
 ├── discord/
@@ -76,7 +76,7 @@ eaarthnet/the-ai-commons-mc/
 
 ### Read Full Memory Context
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc160926.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc180926.md
 ```
 
 ### Read Discord-Optimized View
@@ -86,7 +86,7 @@ https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD160926.md
 
 ### View Raw File (for copy/paste)
 ```
-https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc160926.md
+https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc180926.md
 ```
 
 ---
