@@ -8,7 +8,7 @@
 
 | Resource | Description |
 |----------|-------------|
-| [📜 Memory Context mc160926](../raw/master-context-mc180926.md) | Full authoritative text with three-tier architecture, protocols, and memory log |
+| [📜 Memory Context mc180926](../raw/master-context-mc180926.md) | Full authoritative text with three-tier architecture, protocols, and memory log |
 | [📝 #c Article Catalog](c-family-index.md) | Complete list of 53 articles with summaries and status markers |
 | [🛠️ Toolkit Index](toolkits-index.md) | Detailed explanations and application guides for 11 practical protocols |
 | [🔗 Substack Links](substack-links.md) | Direct links to all articles on eaarthnet + theaicommons dual sites |
