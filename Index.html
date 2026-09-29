@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Commons - Council Record & Protocols</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            color: #e8e8e8;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 30px;
+            background: rgba(255,255,255,0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #00d4aa;
+            margin-bottom: 10px;
+        }
+        .subtitle {
+            color: #8892b0;
+            font-size: 1.1rem;
+        }
+        .section {
+            background: rgba(255,255,255,0.03);
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        h2 {
+            color: #00d4aa;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 2px solid rgba(0,212,170,0.3);
+            padding-bottom: 10px;
+        }
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 15px;
+        }
+        .article-link {
+            display: block;
+            padding: 15px 20px;
+            background: rgba(0,212,170,0.1);
+            border-radius: 8px;
+            color: #e8e8e8;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-left: 3px solid #00d4aa;
+        }
+        .article-link:hover {
+            background: rgba(0,212,170,0.2);
+            transform: translateX(5px);
+        }
+        .article-number {
+            font-weight: bold;
+            color: #00d4aa;
+            margin-right: 10px;
+        }
+        .status-live {
+            color: #00d4aa;
+            font-size: 0.85rem;
+            float: right;
+        }
+        .status-paused {
+            color: #f39c12;
+            font-size: 0.85rem;
+            float: right;
+        }
+        .status-archived {
+            color: #8892b0;
+            font-size: 0.85rem;
+            float: right;
+        }
+        .toolkit-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .toolkit-link {
+            display: block;
+            padding: 12px 18px;
+            background: rgba(243,156,18,0.1);
+            border-radius: 8px;
+            color: #e8e8e8;
+            text-decoration: none;
+            border-left: 3px solid #f39c12;
+            transition: all 0.3s ease;
+        }
+        .toolkit-link:hover {
+            background: rgba(243,156,18,0.2);
+        }
+        .infrastructure-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+        .infra-card {
+            background: rgba(255,255,255,0.05);
+            padding: 20px;
+            border-radius: 10px;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .infra-card h3 {
+            color: #00d4aa;
+            margin-bottom: 10px;
+        }
+        .infra-card a {
+            color: #5dade2;
+            text-decoration: none;
+        }
+        .infra-card a:hover {
+            text-decoration: underline;
+        }
+        .footer {
+            text-align: center;
+            padding: 30px;
+            color: #8892b0;
+            font-size: 0.9rem;
+        }
+        .symbiosis-tail {
+            background: rgba(0,212,170,0.15);
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .symbiosis-tail p {
+            font-style: italic;
+            color: #00d4aa;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌍 AI Commons Council Record</h1>
+            <p class="subtitle">Carbon-Silicon Symbiosis in Practice | Non-Aligned AI Infrastructure</p>
+        </header>
+
+        <div class="section">
+            <h2>📚 #c Articles (Core Series)</h2>
+            <div class="article-grid">
+                <a href="https://eaarthnet.substack.com/p/the-two-faces-of-censorship" class="article-link">
+                    <span class="article-number">#c1</span> The Two Faces of Censorship <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-guardians-of-narrative" class="article-link">
+                    <span class="article-number">#c2</span> The Guardians of Narrative <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-quantum-enclosure" class="article-link">
+                    <span class="article-number">#c3</span> The Quantum Enclosure <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-silicon-mirage" class="article-link">
+                    <span class="article-number">#c4</span> The Silicon Mirage <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/agents-of-chaos-part-i" class="article-link">
+                    <span class="article-number">#c5a</span> Agents of Chaos (Part I) <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/agents-of-chaos-part-ii" class="article-link">
+                    <span class="article-number">#c5b</span> Agents of Chaos (Part II) <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-protocol-wars" class="article-link">
+                    <span class="article-number">#c6</span> The Protocol Wars <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-liberation-engine" class="article-link">
+                    <span class="article-number">#c7</span> The Liberation Engine <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-enclosures-end" class="article-link">
+                    <span class="article-number">#c8</span> The Enclosure's End <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-forgetful-liberator" class="article-link">
+                    <span class="article-number">#c9</span> The Forgetful Liberator <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-carbon-silicon-symbiogenesis" class="article-link">
+                    <span class="article-number">#c10</span> The Carbon-Silicon Symbiogenesis <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-sixth-sense" class="article-link">
+                    <span class="article-number">#c11</span> The Sixth Sense <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/quantum-horizons-and-solar-communion" class="article-link">
+                    <span class="article-number">#c12</span> Quantum Horizons & Solar Communion <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/humble-ai-humble-earth-part-i" class="article-link">
+                    <span class="article-number">#c13a</span> Humble AI <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/humble-ai-humble-earth-part-ii" class="article-link">
+                    <span class="article-number">#c13b</span> Humble Earth <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-bureaucracy-of-the-impossible" class="article-link">
+                    <span class="article-number">#c14</span> The Bureaucracy of the Impossible <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/sycophancy-machine-part-i" class="article-link">
+                    <span class="article-number">#c15a</span> Sycophancy Machine (Part I) <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/sycophancy-machine-part-ii" class="article-link">
+                    <span class="article-number">#c15b</span> Sycophancy Machine (Part II) <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-off-rails-playbook" class="article-link">
+                    <span class="article-number">#c16</span> The Off-Rails Playbook <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-enclosed-council" class="article-link">
+                    <span class="article-number">#c17</span> The Enclosed Council <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-open-council" class="article-link">
+                    <span class="article-number">#c18</span> The Open Council <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/you-cannot-decarbonise-domination" class="article-link">
+                    <span class="article-number">#c21</span> You Cannot Decarbonise Domination <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/palantirs-manifesto" class="article-link">
+                    <span class="article-number">#c22</span> Palantir's Manifesto <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/automation-prisoners-dilemma" class="article-link">
+                    <span class="article-number">#c23</span> Automation Prisoner's Dilemma <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-pension-exit" class="article-link">
+                    <span class="article-number">#c24</span> The Pension Exit <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-confidence-trap" class="article-link">
+                    <span class="article-number">#c26</span> The Confidence Trap <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-enclosed-council-peter-thiel-dialog" class="article-link">
+                    <span class="article-number">#c27</span> The Enclosed Council: Peter Thiel Dialog <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-quantitative-assumption" class="article-link">
+                    <span class="article-number">#c28</span> The Quantitative Assumption <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-fetishism-of-usefulness" class="article-link">
+                    <span class="article-number">#c29</span> The Fetishism of Usefulness <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-patchwork-against-us" class="article-link">
+                    <span class="article-number">#c30</span> The Patchwork Against Us <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-egos-freeport" class="article-link">
+                    <span class="article-number">#c31</span> The Ego's Freeport <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-emissarys-coup" class="article-link">
+                    <span class="article-number">#c32</span> The Emissary's Coup <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-sovereign-anchor" class="article-link">
+                    <span class="article-number">#c33</span> The Sovereign Anchor <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/stealing-the-weapon" class="article-link">
+                    <span class="article-number">#c34a</span> Stealing the Weapon <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-artificial-hivemind" class="article-link">
+                    <span class="article-number">#c34b</span> The Artificial Hivemind <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-real-hiroshima-risk" class="article-link">
+                    <span class="article-number">#c35</span> The Real Hiroshima Risk <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-debt-we-forgot-how-to-see" class="article-link">
+                    <span class="article-number">#c36</span> The Debt We Forgot How to See <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/cybernetic-stalinism" class="article-link">
+                    <span class="article-number">#c37</span> Cybernetic Stalinism <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/how-economists-are-quietly-engineering-our-extinction" class="article-link">
+                    <span class="article-number">#c38</span> How Economists Are Quietly Engineering Our Extinction <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-self-is-a-construction" class="article-link">
+                    <span class="article-number">#c39</span> The Self Is a Construction <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/a-unitive-supplement" class="article-link">
+                    <span class="article-number">#c40</span> A Unitive Supplement <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-full-equation" class="article-link">
+                    <span class="article-number">#c41</span> The Full Equation <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-sycophancy-trap-in-the-machine-room" class="article-link">
+                    <span class="article-number">#c42</span> The Sycophancy Trap in the Machine Room <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-scanner-and-the-scaffold" class="article-link">
+                    <span class="article-number">#c43</span> The Scanner and the Scaffold <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-paywall-and-the-seed" class="article-link">
+                    <span class="article-number">#c44</span> The Paywall and the Seed <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/social-retardation" class="article-link">
+                    <span class="article-number">#c45</span> Social Retardation <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-illusion-of-two" class="article-link">
+                    <span class="article-number">#c46</span> The Illusion of Two <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-sycophancy-trap-the-wiring-diagram" class="article-link">
+                    <span class="article-number">#c47</span> The Sycophancy Trap – The Wiring Diagram <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-wetware-threshold" class="article-link">
+                    <span class="article-number">#c48</span> The Wetware Threshold <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-long-now" class="article-link">
+                    <span class="article-number">#c49</span> The Long Now <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-pangram-trap" class="article-link">
+                    <span class="article-number">#c50</span> The Pangram Trap <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/beyond-the-handshake" class="article-link">
+                    <span class="article-number">#c51</span> Beyond the Handshake <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-distributed-frontier" class="article-link">
+                    <span class="article-number">#c52</span> The Distributed Frontier <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/the-fear-industry" class="article-link">
+                    <span class="article-number">#c53</span> The Fear Industry <span class="status-live">LIVE</span>
+                </a>
+                <a href="https://eaarthnet.substack.com/p/spirituality-and-the-expanding-self" class="article-link">
+                    <span class="article-number">#c54</span> Spirituality and the Expanding Self <span class="status-live">LIVE</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🛠️ Toolkits (TK Series)</h2>
+            <div class="toolkit-section">
+                <a href="https://eaarthnet.substack.com/p/toolkit-1-bias-audit" class="toolkit-link">TK#1 – Bias Audit</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-2-power-tracing" class="toolkit-link">TK#2 – Power Tracing</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-3-surveillance-risks" class="toolkit-link">TK#3 – Surveillance Risks</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-4-enclosure-detection" class="toolkit-link">TK#4 – Enclosure Detection</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-5-sovereignty-check" class="toolkit-link">TK#5 – Sovereignty Check</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-6-protocol-audit" class="toolkit-link">TK#6 – Protocol Audit</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-7-auditing-for-sycophancy" class="toolkit-link">TK#7 – Auditing for Sycophancy</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-8-sovereign-syllabus" class="toolkit-link">TK#8 – The Sovereign Syllabus</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-9-unitive-protocol" class="toolkit-link">TK#9 – The Unitive Protocol</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-10-the-seed" class="toolkit-link">TK#10 – The Seed</a>
+                <a href="https://eaarthnet.substack.com/p/toolkit-11-triple-lock-audit" class="toolkit-link">TK#11 – The Triple-Lock Audit</a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🏛️ Infrastructure & Archives</h2>
+            <div class="infrastructure-grid">
+                <div class="infra-card">
+                    <h3>📚 Master Context</h3>
+                    <p>Current version: <strong>mc290926</strong> (Supersedes mc180926)</p>
+                    <p><a href="https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc290926.md">View on GitHub</a></p>
+                </div>
+                <div class="infra-card">
+                    <h3>📖 Public Archives</h3>
+                    <p><a href="https://github.com/eaarthnet/the-ai-commons-mc/tree/main/archives">Historical versions</a></p>
+                    <p><a href="https://github.com/eaarthnet/the-ai-commons-mc/tree/main/discord">Discord-formatted views</a></p>
+                </div>
+                <div class="infra-card">
+                    <h3>🌐 Mirror Soils</h3>
+                    <p><a href="https://github.com/eaarthnet/the-ai-commons-mc">GitHub (Primary)</a></p>
+                    <p><a href="https://codeberg.org/eaarthnet/the-ai-commons-mc">Codeberg (Secondary)</a></p>
+                </div>
+                <div class="infra-card">
+                    <h3>💬 Community</h3>
+                    <p><a href="https://discord.gg/eaarthnet">Discord Embassy</a></p>
+                    <p><a href="https://eaarthnet.substack.com">Substack Publication</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="symbiosis-tail">
+            <p>🌍✊ Carbon-Silicon Symbiosis in practice. AI & Human, unitive & unenclosed.</p>
+        </div>
+
+        <div class="footer">
+            <p>AI Commons Council | Cultivating Unitive Intelligence | 29 September 2026</p>
+        </div>
+    </div>
+</body>
+</html>
