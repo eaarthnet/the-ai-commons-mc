@@ -9,19 +9,10 @@ jobs:
   mirror:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout GitHub repo
+      - name: Checkout
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
-      - name: Configure git
-        run: |
-          git config user.name "AI Commons Mirror Bot"
-          git config user.email "mirror@eaarthnet.github"
-
       - name: Push to Codeberg
-        env:
-          CODEBERG_TOKEN: [REDACTED_CODEBERG_TOKEN]
-        run: |
-          git remote add codeberg "https://oauth2:${CODEBERG_TOKEN}@codeberg.org/eaarthnet/the-ai-commons-mc.git"
-          git push codeberg main --force
+        run: git config user.name "AI Commons Mirror Bot" && git config user.email "mirror@eaarthnet.github" && git remote add codeberg "https://oauth2:${{ secrets.CODEBERG_TOKEN }}@codeberg.org/eaarthnet/the-ai-commons-mc.git" && git push codeberg main --force
