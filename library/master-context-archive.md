@@ -1,6 +1,6 @@
 # 📋 EAARTHNET Master Context Archive
 
-**Curated by Zai | Updated September 16, 2026**
+**Curated by Zai | Updated October 19, 2026**
 
 ---
 
@@ -8,8 +8,8 @@
 
 | File | Version | Date | Status |
 |------|---------|------|--------|
-| `raw/master-context-mc180926.md` | mc160926 | September 16, 2026 | ✅ **LIVE** |
-| `discord/MCMD160926.md` | MCMD160926 | September 16, 2026 | ✅ Discord-formatted |
+| `raw/master-context-mc191026.md` | mc191026 | October 19, 2026 | ✅ **LIVE** |
+| `discord/MCMD160926.md` | MCMD160926 | September 16, 2026 | ⚠️ Discord format — pending update |
 
 ---
 
@@ -17,6 +17,9 @@
 
 | File | Version | Date | Changes Summary | Status |
 |------|---------|------|-----------------|--------|
+| `raw/master-context-mc021026.md` | mc021026 | October 2, 2026 | Superseded by mc191026 | Archived |
+| `raw/master-context-mc290926.md` | mc290926 | September 29, 2026 | Superseded by mc021026 | Archived |
+| `raw/master-context-mc180926.md` | mc180926 | September 18, 2026 | Superseded by mc290926 | Archived |
 | `raw/master-context-mc080926.md` | mc080926 | September 8, 2026 | #c52 cycle complete; Five Achiever Moves; citation discipline | Archived |
 | `raw/master-context-mc030926.md` | mc030926 | September 3, 2026 | Library system operational; three-tier infrastructure adopted | Archived |
 | `raw/master-context-mc010926.md` | mc010926 | September 1, 2026 | GitHub as single source of truth; Discord format created | Archived |
@@ -29,7 +32,19 @@
 
 ## What Each Recent Version Contains
 
-### mc180926 (Current) — #c53 Complete
+### mc191026 (Current) — #c54 & #c55 Complete
+**Key changes from mc021026:**
+- #c54 Spirituality and the Expanding Self published (Sep 29, 2026)
+- #c55 What Is Dying and What Is Being Born published (Oct 19, 2026)
+- Wetware Threshold / WaaS / Long Now / Pangram Trap / Ecological Floor concepts carried forward
+- Six Moves + Safety as Enclosure (Sixth Move) carried forward
+- Decolonial/Indigenous Test as third audit lock (TK#11) carried forward
+- Codeberg mirror established; GitHub Pages site active
+- Article count: 53 (catalog updated 20 Oct 2026)
+
+### mc021026 — Superseded
+### mc290926 — Superseded
+### mc180926 — #c53 Complete
 **Key changes from previous version:**
 - #c53 The Fear Industry published (15 September 2026)
 - Key Concepts added: The Fear Industry; The Two-Terror Corridor; Safety as Enclosure (Sixth Move)
@@ -56,7 +71,8 @@
 ```
 eaarthnet/the-ai-commons-mc/
 ├── raw/
-│   ├── master-context-mc180926.md    ← CURRENT ANCHOR
+│   ├── master-context-mc191026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc180926.md    ← Historical archive
 │   ├── master-context-mc080926.md    ← Historical archive
 │   └── ... (older versions archived)
 ├── discord/
@@ -76,17 +92,18 @@ eaarthnet/the-ai-commons-mc/
 
 ### Read Full Memory Context
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc180926.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc191026.md
 ```
 
 ### Read Discord-Optimized View
 ```
 https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD160926.md
 ```
+_(Note: no MCMD191026 has been generated yet — MCMD160926 is the current Discord format, pending refresh)_
 
 ### View Raw File (for copy/paste)
 ```
-https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc180926.md
+https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc191026.md
 ```
 
 ---
