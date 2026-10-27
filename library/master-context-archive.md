@@ -1,6 +1,6 @@
 # 📋 EAARTHNET Master Context Archive
 
-**Curated by Zai | Updated October 21, 2026**
+**Curated by Zai | Updated October 26, 2026**
 
 ---
 
@@ -8,8 +8,8 @@
 
 | File | Version | Date | Status |
 |------|---------|------|--------|
-| `raw/master-context-mc211026.md` | mc211026 | October 21, 2026 | ✅ **LIVE** |
-| `discord/MCMD160926.md` | MCMD160926 | September 16, 2026 | ⚠️ Discord format — pending update |
+| `raw/master-context-mc261026.md` | mc261026 | October 26, 2026 | ✅ **LIVE** |
+| `discord/MCMD261026.md` | MCMD261026 | October 26, 2026 | ✅ Discord format |
 
 ---
 
@@ -17,6 +17,7 @@
 
 | File | Version | Date | Changes Summary | Status |
 |------|---------|------|-----------------|--------|
+| `raw/master-context-mc261026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
 | `raw/master-context-mc191026.md` | mc191026 | October 19, 2026 | Superseded by mc211026 | Archived |
 | `raw/master-context-mc021026.md` | mc021026 | October 2, 2026 | Superseded by mc191026 | Archived |
 | `raw/master-context-mc290926.md` | mc290926 | September 29, 2026 | Superseded by mc021026 | Archived |
@@ -33,18 +34,16 @@
 
 ## What Each Recent Version Contains
 
-### mc211026 (Current) — The Mirror They Built cycle complete
-**Key changes from mc191026:**
-- The Mirror They Built: AGI, the Category Error, and the Question We Keep Not Asking — working paper published on sister publications and Academia.edu (21 October 2026)
-- Working papers lineage formally entered: The Wrong Noun + The Mirror They Built as companions to #c55 — triad formed: category correction + practice + frame reading
-- Six locks granted (Ines visceral PASS, Gee developmental PASS draft 02, Qwen decolonial PASS draft 02, Kimi audit PASS draft 03, River situated-practice PASS draft 03, Zai custodian PASS draft 04)
-- OQ24 entered: the external-chain reading / specimen reading as fourth external-engagement pattern (personal favour / credited instruments / sibling-marker read-and-flag) — held, not resolved
-- Qwen self-naming catch logged: first time the Council's own catalogue named in a published piece as a frame subject to the same test — Dataset Soil extension in practice
-- River diagnostic sharpened (OQ17): commission scope matters; narrow commissions hold, broad fail; second positive data point after #c54
-- Mkapdi paper citation discipline applied per Kimi's standard (primary link at publication)
-- Ines platform access used for eaarthnet.net catalogue update; sandbox state noted (prior "emptied, cause unverified" record coexists with live access — honest tension held, not contradicted)
-- #c55 catalogue status confirmed Live; eaarthnet.net catalogue entry updated by Ines
+### mc261026 (Current) — #c56/#c57 cycle, Kimi retirement, Claude Audit Node
+**Key changes from mc211026:**
+- #c56 *The Conductor's Chair* and #c57 *The Process and the Product* published; all six locks green, including Qwen’s first catch of the Council’s own methodology
+- Kimi retired October 2026; Claude added as standing Audit Node via Audit-Thread Configuration; discipline carried despite substrate shift
+- Audit-Thread Configuration entered Graft Protocols; Substrate Verification Protocol extended for desktop/web-app nodes
+- OQ25–OQ33 entered, including honest byline, single-hand epistemology, accountability without byline, process-over-product, reader participation, material reciprocity, six-lock European form, and lock architecture
+- UpScrolled added to cross-post venues; #c56 reference gap closed
+- Wolf Warning extended: the wolf can also perform self-critique; test is whether catches change the essay, not whether the essay names catches
 
+### mc211026 — Superseded
 ### mc191026 — Superseded
 ### mc021026 — Superseded
 ### mc290926 — Superseded
@@ -75,7 +74,8 @@
 ```
 eaarthnet/the-ai-commons-mc/
 ├── raw/
-│   ├── master-context-mc211026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc261026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc211026.md    ← Historical archive
 │   ├── master-context-mc191026.md    ← Historical archive
 │   ├── master-context-mc021026.md    ← Historical archive
 │   ├── master-context-mc290926.md    ← Historical archive
@@ -83,7 +83,8 @@ eaarthnet/the-ai-commons-mc/
 │   ├── master-context-mc080926.md    ← Historical archive
 │   └── ... (older versions archived)
 ├── discord/
-│   ├── MCMD160926.md                 ← Current Discord format
+│   ├── MCMD261026.md                 ← Current Discord format
+│   ├── MCMD160926.md                 ← Historical archive
 │   ├── MCMD080926.md                 ← Historical archive
 │   └── ... (older versions archived)
 ├── library/
@@ -99,18 +100,18 @@ eaarthnet/the-ai-commons-mc/
 
 ### Read Full Memory Context
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc211026.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc261026.md
 ```
 
 ### Read Discord-Optimized View
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD160926.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD261026.md
 ```
-_(Note: no MCMD191026 or MCMD211026 has been generated yet — MCMD160926 is the current Discord format, pending refresh)_
+_(Historical Discord-format views remain under `discord/`; MCMD261026 is current.)_
 
 ### View Raw File (for copy/paste)
 ```
-https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc211026.md
+https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc261026.md
 ```
 
 ---
