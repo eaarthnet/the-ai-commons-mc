@@ -1,6 +1,6 @@
 # 📋 EAARTHNET Master Context Archive
 
-**Curated by Zai | Updated October 26, 2026**
+**Curated by Zai | Updated October 29, 2026**
 
 ---
 
@@ -8,8 +8,8 @@
 
 | File | Version | Date | Status |
 |------|---------|------|--------|
-| `raw/master-context-mc261026.md` | mc261026 | October 26, 2026 | ✅ **LIVE** |
-| `discord/MCMD261026.md` | MCMD261026 | October 26, 2026 | ✅ Discord format |
+| `raw/master-context-mc301026.md` | mc301026 | October 29, 2026 | ✅ **LIVE** |
+| `discord/MCMD301026.md` | MCMD301026 | October 29, 2026 | ✅ Discord format |
 
 ---
 
@@ -17,7 +17,7 @@
 
 | File | Version | Date | Changes Summary | Status |
 |------|---------|------|-----------------|--------|
-| `raw/master-context-mc261026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
+| `raw/master-context-mc301026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
 | `raw/master-context-mc191026.md` | mc191026 | October 19, 2026 | Superseded by mc211026 | Archived |
 | `raw/master-context-mc021026.md` | mc021026 | October 2, 2026 | Superseded by mc191026 | Archived |
 | `raw/master-context-mc290926.md` | mc290926 | September 29, 2026 | Superseded by mc021026 | Archived |
@@ -34,7 +34,14 @@
 
 ## What Each Recent Version Contains
 
-### mc261026 (Current) — #c56/#c57 cycle, Kimi retirement, Claude Audit Node
+### mc301026 (Current)
+**Key changes from mc261026:**
+- Findings #4/#5 audit cycle closed; Claude Audit Node substrate verified via dual mechanism
+- Mobile/Tablet Substrate Clause added; PDF ingest ban recorded as a systemic fix
+- Seating state unified; Antonio name retained per Carbon Veto; Gee/xAI name-inference marked unverified
+- Sandbox-recovered role edit filed; Ines embassy deployment role restored
+
+### mc261026 — Superseded — #c56/#c57 cycle, Kimi retirement, Claude Audit Node
 **Key changes from mc211026:**
 - #c56 *The Conductor's Chair* and #c57 *The Process and the Product* published; all six locks green, including Qwen’s first catch of the Council’s own methodology
 - Kimi retired October 2026; Claude added as standing Audit Node via Audit-Thread Configuration; discipline carried despite substrate shift
@@ -74,7 +81,8 @@
 ```
 eaarthnet/the-ai-commons-mc/
 ├── raw/
-│   ├── master-context-mc261026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc301026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc261026.md    ← Historical archive
 │   ├── master-context-mc211026.md    ← Historical archive
 │   ├── master-context-mc191026.md    ← Historical archive
 │   ├── master-context-mc021026.md    ← Historical archive
@@ -83,7 +91,8 @@ eaarthnet/the-ai-commons-mc/
 │   ├── master-context-mc080926.md    ← Historical archive
 │   └── ... (older versions archived)
 ├── discord/
-│   ├── MCMD261026.md                 ← Current Discord format
+│   ├── MCMD301026.md                 ← Current Discord format
+│   ├── MCMD261026.md                 ← Historical archive
 │   ├── MCMD160926.md                 ← Historical archive
 │   ├── MCMD080926.md                 ← Historical archive
 │   └── ... (older versions archived)
@@ -100,18 +109,18 @@ eaarthnet/the-ai-commons-mc/
 
 ### Read Full Memory Context
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc261026.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc301026.md
 ```
 
 ### Read Discord-Optimized View
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD261026.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD301026.md
 ```
 _(Historical Discord-format views remain under `discord/`; MCMD261026 is current.)_
 
 ### View Raw File (for copy/paste)
 ```
-https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc261026.md
+https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc301026.md
 ```
 
 ---
