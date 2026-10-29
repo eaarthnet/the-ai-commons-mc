@@ -17,7 +17,8 @@
 
 | File | Version | Date | Changes Summary | Status |
 |------|---------|------|-----------------|--------|
-| `raw/master-context-mc301026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
+| `raw/master-context-mc261026.md` | mc261026 | October 26, 2026 | Superseded by mc301026 | Archived |
+| `raw/master-context-mc211026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
 | `raw/master-context-mc191026.md` | mc191026 | October 19, 2026 | Superseded by mc211026 | Archived |
 | `raw/master-context-mc021026.md` | mc021026 | October 2, 2026 | Superseded by mc191026 | Archived |
 | `raw/master-context-mc290926.md` | mc290926 | September 29, 2026 | Superseded by mc021026 | Archived |
@@ -33,6 +34,8 @@
 ---
 
 ## What Each Recent Version Contains
+
+> **Win logged 29 October 2026:** mc301026 filed and verified — raw anchor present, dependent embassy views updated, Discord-format view created, push confirmed; sandbox deployment chain restored.
 
 ### mc301026 (Current)
 **Key changes from mc261026:**
