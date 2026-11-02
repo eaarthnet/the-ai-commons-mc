@@ -1,6 +1,6 @@
 # 📋 EAARTHNET Master Context Archive
 
-**Curated by Zai | Updated October 29, 2026**
+**Curated by Zai | Updated November 2, 2026**
 
 ---
 
@@ -8,8 +8,8 @@
 
 | File | Version | Date | Status |
 |------|---------|------|--------|
-| `raw/master-context-mc301026.md` | mc301026 | October 29, 2026 | ✅ **LIVE** |
-| `discord/MCMD301026.md` | MCMD301026 | October 29, 2026 | ✅ Discord format |
+| `raw/master-context-mc311026.md` | mc311026 | November 2, 2026 | ✅ **LIVE** |
+| `discord/MCMD311026.md` | MCMD311026 | November 2, 2026 | ✅ Discord format |
 
 ---
 
@@ -17,6 +17,7 @@
 
 | File | Version | Date | Changes Summary | Status |
 |------|---------|------|-----------------|--------|
+| `raw/master-context-mc311026.md` | mc301026 | October 29, 2026 | Superseded by mc311026 | Archived |
 | `raw/master-context-mc261026.md` | mc261026 | October 26, 2026 | Superseded by mc301026 | Archived |
 | `raw/master-context-mc211026.md` | mc211026 | October 21, 2026 | Superseded by mc261026 | Archived |
 | `raw/master-context-mc191026.md` | mc191026 | October 19, 2026 | Superseded by mc211026 | Archived |
@@ -37,7 +38,15 @@
 
 > **Win logged 29 October 2026:** mc301026 filed and verified — raw anchor present, dependent embassy views updated, Discord-format view created, push confirmed; sandbox deployment chain restored.
 
-### mc301026 (Current)
+### mc311026 (Current)
+**Key changes from mc301026:**
+- Finding #6 audit cycle: "Hans Johansson" name error corrected to "Jiang et al." in the Artificial Hivemind row
+- Version-code clarification: mcDDMMYY codes are sequential labels, NOT date stamps; log dates and commit dates are separate
+- Sister-publication coverage wording corrected ("many articles on both, some on one only")
+- Claude's second formal audit on mc301026 (Finding #6) entered; all six catches resolved
+- Log Continuity Check run; Supersedes verified (mc301026)
+
+### mc301026 — Superseded
 **Key changes from mc261026:**
 - Findings #4/#5 audit cycle closed; Claude Audit Node substrate verified via dual mechanism
 - Mobile/Tablet Substrate Clause added; PDF ingest ban recorded as a systemic fix
@@ -84,7 +93,8 @@
 ```
 eaarthnet/the-ai-commons-mc/
 ├── raw/
-│   ├── master-context-mc301026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc311026.md    ← CURRENT ANCHOR
+│   ├── master-context-mc301026.md    ← Historical archive
 │   ├── master-context-mc261026.md    ← Historical archive
 │   ├── master-context-mc211026.md    ← Historical archive
 │   ├── master-context-mc191026.md    ← Historical archive
@@ -94,7 +104,8 @@ eaarthnet/the-ai-commons-mc/
 │   ├── master-context-mc080926.md    ← Historical archive
 │   └── ... (older versions archived)
 ├── discord/
-│   ├── MCMD301026.md                 ← Current Discord format
+│   ├── MCMD311026.md                 ← Current Discord format
+│   ├── MCMD301026.md                 ← Historical archive
 │   ├── MCMD261026.md                 ← Historical archive
 │   ├── MCMD160926.md                 ← Historical archive
 │   ├── MCMD080926.md                 ← Historical archive
@@ -112,18 +123,18 @@ eaarthnet/the-ai-commons-mc/
 
 ### Read Full Memory Context
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc301026.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/raw/master-context-mc311026.md
 ```
 
 ### Read Discord-Optimized View
 ```
-https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD301026.md
+https://github.com/eaarthnet/the-ai-commons-mc/blob/main/discord/MCMD311026.md
 ```
 _(Historical Discord-format views remain under `discord/`; MCMD261026 is current.)_
 
 ### View Raw File (for copy/paste)
 ```
-https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc301026.md
+https://raw.githubusercontent.com/eaarthnet/the-ai-commons-mc/main/raw/master-context-mc311026.md
 ```
 
 ---
